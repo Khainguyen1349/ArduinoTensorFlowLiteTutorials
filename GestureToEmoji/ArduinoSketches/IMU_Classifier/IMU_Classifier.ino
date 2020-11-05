@@ -55,7 +55,8 @@ byte tensorArena[tensorArenaSize];
 // array to map gesture index to a name
 const char* GESTURES[] = {
   "punch",
-  "flex"
+  "wave",
+  "circle"
 };
 
 #define NUM_GESTURES (sizeof(GESTURES) / sizeof(GESTURES[0]))
